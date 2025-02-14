@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"testing"
 
+	"github.com/nuzur/pg-schema-diff/internal/pgengine"
+	internalschema "github.com/nuzur/pg-schema-diff/internal/schema"
+	"github.com/nuzur/pg-schema-diff/pkg/schema"
 	"github.com/stretchr/testify/suite"
-	"github.com/stripe/pg-schema-diff/internal/pgengine"
-	internalschema "github.com/stripe/pg-schema-diff/internal/schema"
-	"github.com/stripe/pg-schema-diff/pkg/schema"
 )
 
 type schemaTestSuite struct {

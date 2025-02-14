@@ -1,6 +1,6 @@
 package migration_acceptance_tests
 
-import "github.com/stripe/pg-schema-diff/pkg/diff"
+import "github.com/nuzur/pg-schema-diff/pkg/diff"
 
 var enumAcceptanceTestCases = []acceptanceTestCase{
 	{

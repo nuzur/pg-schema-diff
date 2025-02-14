@@ -9,12 +9,12 @@ import (
 
 	_ "github.com/jackc/pgx/v4/stdlib"
 	"github.com/kr/pretty"
-	"github.com/stripe/pg-schema-diff/internal/schema"
-	externalschema "github.com/stripe/pg-schema-diff/pkg/schema"
+	"github.com/nuzur/pg-schema-diff/internal/schema"
+	externalschema "github.com/nuzur/pg-schema-diff/pkg/schema"
 
-	"github.com/stripe/pg-schema-diff/pkg/log"
-	"github.com/stripe/pg-schema-diff/pkg/sqldb"
-	"github.com/stripe/pg-schema-diff/pkg/tempdb"
+	"github.com/nuzur/pg-schema-diff/pkg/log"
+	"github.com/nuzur/pg-schema-diff/pkg/sqldb"
+	"github.com/nuzur/pg-schema-diff/pkg/tempdb"
 )
 
 const (

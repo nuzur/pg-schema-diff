@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	_ "github.com/jackc/pgx/v4/stdlib"
+	"github.com/nuzur/pg-schema-diff/internal/pgengine"
+	"github.com/nuzur/pg-schema-diff/internal/schema"
+	"github.com/nuzur/pg-schema-diff/pkg/log"
+	externalschema "github.com/nuzur/pg-schema-diff/pkg/schema"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
-	"github.com/stripe/pg-schema-diff/internal/pgengine"
-	"github.com/stripe/pg-schema-diff/internal/schema"
-	"github.com/stripe/pg-schema-diff/pkg/log"
-	externalschema "github.com/stripe/pg-schema-diff/pkg/schema"
 
-	"github.com/stripe/pg-schema-diff/pkg/tempdb"
+	"github.com/nuzur/pg-schema-diff/pkg/tempdb"
 )
 
 type fakeSchemaSource struct {
